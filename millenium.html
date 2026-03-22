@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Вокальная группа Миллениум — Дом культуры с. Казаклия</title>
+
+  <meta name="description" content="Вокальная группа. Миллениум. Фото, видео, деятельность.">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <link rel="icon" href="images/logo/logo.png">
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="logo">
+    <img src="images/logo/logo.png" alt="Логотип ДК" />
+    <span>Дом культуры с. Казаклия</span>
+  </div>
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+</header>
+
+<div class="container">
+
+  <!-- МЕНЮ -->
+  <aside class="sidebar" id="sidebar">
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="afisha.html">Афиша</a></li>
+        <li><a href="working.html" class="active">Деятельность</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="people.html">Наш коллектив</a></li>
+        <li><a href="documents.html">Документы</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <div class="sidebar-info">
+      <p>📞 0 (291) 67-2-45</p>
+      <p>🕒 Пн–Пт 08:00–17:00</p>
+    </div>
+  </aside>
+
+  <!-- КОНТЕНТ -->
+  <main class="content">
+      
+      <div>
+        <h1 class="page-title">Вокальная группа "Миллениум"</h1>
+        <p class="page-subtitle">
+         Вокальная группа, объединяющая талантливых исполнителей и развивающая музыкальную культуру.
+        </p>
+      </div>
+   
+
+    <!-- ОПИСАНИЕ -->
+    <section class="section-block">
+      <h2>📖 О коллективе</h2>      
+          <p>
+            Вокальная группа «Миллениум» действует при Доме культуры села Казаклия 
+            и объединяет участников, увлечённых музыкальным искусством и сценическим творчеством.
+          </p>
+
+          <p>
+            Под руководством Мечкар Татьяны Васильевны участники коллектива развивают вокальные данные, 
+            сценическую культуру и артистизм, принимают участие в концертах, праздничных мероприятиях и культурных программах.
+          </p>
+
+          <p>
+            Занятия способствуют раскрытию творческого потенциала, формированию уверенности на сцене 
+            и любви к музыке.
+          </p>
+    </section>        
+    
+    <section>
+      <h2>Репертуар</h2>
+
+      <ul>
+        <li>Современные эстрадные песни</li>
+        <li>Народные и патриотические композиции</li>
+        <li>Песни на русском, гагаузском и других языках</li>
+      </ul>
+    </section>
+
+    <section>
+        <h2>Деятельность</h2>
+
+          <p>
+            Вокальная группа активно участвует в культурной жизни села, 
+            выступает на концертах, фестивалях и тематических мероприятиях, 
+            создавая праздничную атмосферу и радуя зрителей своими выступлениями.
+          </p>
+
+          <p> Коллектив открыт для новых участников, желающих развивать свои вокальные способности.</p>
+     
+    </section>
+
+
+
+     <!-- ФОТО ВИДЕО-->
+
+    <section class="section-block">
+      <h2>📸 Фото/Видео галерея</h2>
+
+      <div class="gallery-grid">
+
+        <div class="gallery-item">
+          <img src="images/working/millenium/m2.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/millenium/m3.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/millenium/m1.png" onclick="openModal(this)">
+        </div>   
+
+                     
+        <div class="gallery-item video" onclick="openVideo('video/m1.mp4')">
+            <img src="images/working/millenium/m1.png">
+            <span class="play-icon">▶</span>
+        </div>
+
+        <div class="gallery-item video" onclick="openVideo('video/m2.mp4')">
+            <img src="images/working/millenium/m2.jpg">
+            <span class="play-icon">▶</span>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/millenium/m4.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/millenium/m5.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/millenium/m6.jpg" onclick="openModal(this)">
+        </div>   
+
+         <div class="gallery-item">
+          <img src="images/working/millenium/m7.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/millenium/m8.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/millenium/m9.jpg" onclick="openModal(this)">
+        </div> 
+        
+        <div class="gallery-item">
+          <img src="images/working/millenium/m10.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/millenium/m11.jpg" onclick="openModal(this)">
+        </div>            
+        
+
+
+  </div>
+ </section>
+
+
+    <!-- КНОПКА НАЗАД -->
+    <a href="working.html" class="back-button">← Назад к разделу</a>
+
+  </main>
+
+</div>
+
+
+<!-- МОДАЛКА -->
+<div id="modal" class="modal" onclick="closeModal()">
+  <img id="modal-img">
+
+  <video id="modal-video" controls onclick="event.stopPropagation()">
+    <source id="video-source" src="">
+  </video>
+</div>
+
+
+
+<footer class="footer">
+ <p>© 2026 Дом культуры с. Казаклия</p>
+<p class="disclaimer">
+    Данный веб-сайт был выполнен в рамках Региональной олимпиады «IT-технологии» 
+    и не обязательно отражает официальную позицию учреждения.
+  </p>
+
+  <p class="disclaimer">
+    Проект разработан при содействии администрации Дома культуры.
+  </p>
+</footer>
+
+<script src="js/menu.js"></script>
+<script src="js/modal.js"></script>
+
+</body>
+</html>

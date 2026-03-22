@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Галерея — Дом культуры с. Казаклия</title>
+
+  <!-- META для поисковых систем -->
+    <meta name="description" content="Официальный сайт Дома культуры села Казаклия. Галерея, афиша мероприятий, кружки, новости и контакты.">
+    <meta name="keywords" content="Дом культуры, Казаклия, афиша, кружки, мероприятия, новости, галерея">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <link rel="icon" href="images/logo/logo.png">
+
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo">
+    <img src="images/logo/logo.png" alt="Логотип ДК" />
+    <span>Дом культуры с. Казаклия</span>
+  </div>
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+</header>
+
+<div class="container">
+
+  <aside class="sidebar" id="sidebar">
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="afisha.html">Афиша</a></li>
+        <li><a href="working.html">Деятельность</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="gallery.html" class="active">Галерея</a></li>
+        <li><a href="people.html">Наш коллектив</a></li>
+        <li><a href="documents.html">Документы</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <div class="sidebar-info">
+      <p>📞 0 (291) 67-2-45</p>
+      <p>🕒 Пн–Пт 08:00–17:00</p>
+    </div>
+  </aside>
+
+  <main class="content">
+    <h1 class="page-title">Галерея</h1>
+    <p class="page-subtitle">Фото с мероприятий и событий.</p>
+
+    
+   <!-- БЛОК ГАЛЕРЕИ --> 
+  
+<div class="gallery-grid">
+
+  <div class="gallery-item">
+    <img src="images/gallery/1.jpg" alt="ДК" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/gallery/2.jpg" alt="ДК" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/gallery/3.jpg" alt="traditions" onclick="openModal(this)">   
+  </div>  
+
+   <div class="gallery-item">
+     <img src="images/gallery/05.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+   <div class="gallery-item">
+     <img src="images/gallery/04.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+   <div class="gallery-item">
+     <img src="images/gallery/03.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/gallery/5.jpg" alt="traditions" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/gallery/6.jpg" alt="traditions" onclick="openModal(this)">    
+  </div> 
+
+  <div class="gallery-item">
+    <img src="images/gallery/18.jpg" alt="traditions" onclick="openModal(this)">   
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/gallery/17.jpg" alt="traditions" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/gallery/14.jpg" alt="traditions" onclick="openModal(this)">    
+  </div> 
+  
+  <div class="gallery-item">
+     <img src="images/gallery/10.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+  
+  <div class="gallery-item">
+     <img src="images/gallery/15.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+    
+  <div class="gallery-item">
+     <img src="images/gallery/13.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/11.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+  
+  <div class="gallery-item">
+     <img src="images/gallery/sevda8.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+   <div class="gallery-item">
+    <img src="images/gallery/8.jpg" alt="events" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/gallery/9.jpg" alt="events" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/7.jpg" alt="events" onclick="openModal(this)">
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/4.jpg" alt="events" onclick="openModal(this)">
+  </div> 
+
+  <div class="gallery-item">
+     <img src="images/gallery/20.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+  
+  <div class="gallery-item">
+     <img src="images/gallery/21.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+    
+  <div class="gallery-item">
+     <img src="images/gallery/22.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/23.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+  
+  <div class="gallery-item">
+     <img src="images/gallery/24.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/sevda11.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/01.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+   <div class="gallery-item">
+     <img src="images/gallery/02.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/sevda7.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/sevda6.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+   <div class="gallery-item">
+    <img src="images/gallery/25.jpg" alt="events" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/gallery/26.jpg" alt="events" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/27.jpg" alt="events" onclick="openModal(this)">
+  </div>  
+
+  <div class="gallery-item">
+     <img src="images/gallery/g1.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/g2.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+  
+  <div class="gallery-item">
+     <img src="images/gallery/g3.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+   <div class="gallery-item">
+    <img src="images/gallery/g4.jpg" alt="events" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/gallery/g5.jpg" alt="events" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/g6.jpg" alt="events" onclick="openModal(this)">
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/g7.jpg" alt="events" onclick="openModal(this)">
+  </div> 
+
+   <div class="gallery-item">
+     <img src="images/gallery/g8.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/g9.png" alt="traditions" onclick="openModal(this)">
+  </div>
+  
+  <div class="gallery-item">
+     <img src="images/gallery/g10.png" alt="traditions" onclick="openModal(this)">
+  </div>
+
+   <div class="gallery-item">
+    <img src="images/gallery/g11.png" alt="events" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/gallery/g12.png" alt="events" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/g13.png" alt="events" onclick="openModal(this)">
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/g30.jpg" alt="traditions" onclick="openModal(this)">
+  </div>
+
+   <div class="gallery-item">
+    <img src="images/gallery/g31.jpg" alt="events" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+    <img src="images/gallery/g32.jpg" alt="events" onclick="openModal(this)">    
+  </div>
+
+  <div class="gallery-item">
+     <img src="images/gallery/g33.jpg" alt="events" onclick="openModal(this)">
+  </div>
+
+ 
+
+
+  
+</div>
+
+<!-- КНОПКА НАЗАД -->
+   
+
+  </main>
+
+</div>
+
+<!-- МОДАЛЬНОЕ ОКНО -->
+<div id="modal" class="modal" onclick="closeModal()">
+  <img id="modal-img">
+
+  <video id="modal-video" controls onclick="event.stopPropagation()">
+    <source id="video-source" src="">
+  </video>
+</div>
+
+<footer class="footer">
+  <p>© 2026 Дом культуры с. Казаклия</p>
+
+  <p class="disclaimer">
+    Данный веб-сайт был выполнен в рамках Региональной олимпиады «IT-технологии» 
+    и не обязательно отражает официальную позицию учреждения.
+  </p>
+
+  <p class="disclaimer">
+    Проект разработан при содействии администрации Дома культуры.
+  </p>
+</footer>
+
+<script src="js/menu.js"></script>
+<script src="js/modal.js"></script>
+
+
+</body>
+</html>

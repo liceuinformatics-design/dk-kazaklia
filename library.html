@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Сельская библиотека — Дом культуры с. Казаклия</title>
+
+  <meta name="description" content="Сельская библиотека. Книги, читаем. Фото, видео, деятельность.">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <link rel="icon" href="images/logo/logo.png">
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="logo">
+    <img src="images/logo/logo.png" alt="Логотип ДК" />
+    <span>Дом культуры с. Казаклия</span>
+  </div>
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+</header>
+
+<div class="container">
+
+  <!-- МЕНЮ -->
+  <aside class="sidebar" id="sidebar">
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="afisha.html">Афиша</a></li>
+        <li><a href="working.html" class="active">Деятельность</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="people.html">Наш коллектив</a></li>
+        <li><a href="documents.html">Документы</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <div class="sidebar-info">
+      <p>📞 0 (291) 67-2-45</p>
+      <p>🕒 Пн–Пт 08:00–17:00</p>
+    </div>
+  </aside>
+
+  <!-- КОНТЕНТ -->
+  <main class="content">
+      
+      <div>
+        <h1 class="page-title"> Публичная библиотека с.Казаклия</h1>
+        <p class="page-subtitle">
+          Публичная библиотека — современный центр чтения, образования и культурного развития.
+        </p>
+      </div>
+   
+
+    <!-- ОПИСАНИЕ -->
+                
+    <section>
+      <h2> О библиотеке</h2>
+
+      <p>
+        Публичная библиотека села Казаклия является важным культурно-просветительским учреждением 
+        и функционирует при Доме культуры. 
+      </p>
+
+      <p>
+        Библиотека доступна для всех жителей и гостей села и представляет собой современный 
+        центр чтения и образования, где создаются условия для интеллектуального и культурного развития.
+      </p>
+
+      <p>
+        📍 Расположение: 2 этаж Дома культуры, ул. Ленина, 119.
+      </p>
+    </section>
+
+    <section>
+      <h2>Фонд</h2>
+
+      <p>
+        Книжный фонд библиотеки насчитывает более 20 000 экземпляров литературы различных жанров. 
+      </p>
+
+      <ul>
+        <li>Художественная литература</li>
+        <li>Детские книги</li>
+        <li>Научно-популярные издания</li>
+        <li>Справочная литература</li>
+        <li>Произведения гагаузских, молдавских и зарубежных авторов</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Для посетителей</h2>
+
+      <p>
+        Библиотека обслуживает широкую аудиторию: детей, подростков и взрослых читателей.
+      </p>
+
+      <p>
+        В распоряжении посетителей находится читальный зал, где можно:
+      </p>
+
+      <ul>
+        <li>Читать книги на месте</li>
+        <li>Готовить домашние задания</li>
+        <li>Работать с литературой</li>
+        <li>Проводить время в спокойной атмосфере</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Деятельность</h2>
+
+      <ul>
+        <li>Литературные вечера и встречи с писателями</li>
+        <li>Конкурсы и мероприятия для детей</li>
+        <li>Тематические выставки</li>
+        <li>Мастер-классы и акции популяризации чтения</li>
+      </ul>
+
+      <p>
+        Библиотека активно сотрудничает с Домом культуры и музеем, 
+        являясь важной частью культурной жизни села.
+      </p>
+    </section>
+
+    <section>
+      <p>
+        Публичная библиотека — это место, где формируется интерес к знаниям, 
+        развивается любовь к книге и сохраняются культурные традиции.
+      </p>
+    </section>
+
+
+     <!-- ФОТО ВИДЕО-->
+
+    <section class="section-block">
+      <h2>📸 Фото/Видео галерея</h2>
+
+      <div class="gallery-grid">
+
+        <div class="gallery-item">
+          <img src="images/working/library/l1.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l2.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l3.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l4.jpg" onclick="openModal(this)">
+        </div>       
+
+        <div class="gallery-item">
+          <img src="images/working/library/l5.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l7.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l8.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l9.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l10.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l11.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l12.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l13.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l14.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l15.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l16.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l17.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l18.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l19.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/library/l20.jpg" onclick="openModal(this)">
+        </div>           
+
+    </div>
+     </section>        
+
+<!-- КНОПКА НАЗАД -->
+   <a href="working.html" class="back-button">← Назад к разделу</a>
+
+  </main>
+</div>
+
+
+<!-- МОДАЛКА -->
+<div id="modal" class="modal" onclick="closeModal()">
+  <img id="modal-img">
+
+  <video id="modal-video" controls onclick="event.stopPropagation()">
+    <source id="video-source" src="">
+  </video>
+</div>
+
+
+
+<footer class="footer">
+ <p>© 2026 Дом культуры с. Казаклия</p>
+<p class="disclaimer">
+    Данный веб-сайт был выполнен в рамках Региональной олимпиады «IT-технологии» 
+    и не обязательно отражает официальную позицию учреждения.
+  </p>
+
+  <p class="disclaimer">
+    Проект разработан при содействии администрации Дома культуры.
+  </p>
+</footer>
+
+<script src="js/menu.js"></script>
+<script src="js/modal.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Новые экспонаты музея — Дом культуры Казаклия</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="icon" href="images/logo/logo.png">
+
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="logo">
+    <img src="images/logo/logo.png">
+    <span>Дом культуры с. Казаклия</span>
+  </div>
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+</header>
+
+<div class="container">
+
+<aside class="sidebar" id="sidebar">
+<nav>
+<ul>
+<li><a href="index.html">Главная</a></li>
+<li><a href="afisha.html">Афиша</a></li>
+<li><a href="working.html">Деятельность</a></li>
+<li><a href="news.html" class="active">Новости</a></li>
+<li><a href="gallery.html">Галерея</a></li>
+<li><a href="people.html">Наш коллектив</a></li>
+<li><a href="documents.html">Документы</a></li>
+<li><a href="contacts.html">Контакты</a></li>
+</ul>
+</nav>
+</aside>
+
+<main class="content">
+
+<h1 class="page-title">Новые экспонаты музея</h1>
+<p class="page-subtitle">Ко Дню защитника Отечества</p>
+
+<div class="news-text">
+
+<p>
+В преддверии Дня защитника Отечества фонд музея пополнился по-настоящему 
+бесценными экспонатами — комплектами военной формы, принадлежавшими нашим землякам.
+</p>
+
+<p>
+Каждый предмет — это не просто часть одежды, а живое свидетельство истории, 
+сохраняющее память о мужестве, стойкости и верности долгу.
+</p>
+
+<p>
+В коллекции представлены:
+</p>
+
+<p>
+<strong>Форма пограничника Червен Фёдора</strong> — символ бдительности и защиты рубежей, 
+олицетворение надёжности и спокойствия тех, кто стоит на страже мира.
+</p>
+
+<p>
+<strong>Форма моряка Чилингир Петра</strong> — воплощение морской доблести, 
+дисциплины и силы духа людей, связавших свою жизнь с морем.
+</p>
+
+<p>
+Выражаем искреннюю благодарность дарителям за доверие и вклад в сохранение 
+нашего культурно-исторического наследия.
+</p>
+
+</div>
+
+<!-- ===== ГАЛЕРЕЯ ===== -->
+<h2 class="section-title">📸 Фото и видео</h2>
+
+<div class="gallery-grid">
+
+<div class="gallery-item">
+<img src="images/news/museum/1.jpg" onclick="openModal(this)">
+</div>
+
+<div class="gallery-item">
+<img src="images/news/museum/2.jpg" onclick="openModal(this)">
+</div>
+
+<div class="gallery-item">
+<img src="images/news/museum/4.jpg" onclick="openModal(this)">
+</div>
+
+<div class="gallery-item">
+<img src="images/news/museum/5.jpg" onclick="openModal(this)">
+</div>
+
+<div class="gallery-item">
+<img src="images/news/museum/6.jpg" onclick="openModal(this)">
+</div>
+
+
+</div>
+
+<div class="back-wrapper">
+  <a href="news.html" class="back-link">← Назад к новостям</a>
+</div>
+
+</main>
+</div>
+
+<!-- МОДАЛКА -->
+<div id="modal" class="modal" onclick="closeModal()">
+  <img id="modal-img">
+
+  <video id="modal-video" controls onclick="event.stopPropagation()">
+    <source id="video-source" src="">
+  </video>
+</div>
+
+<footer class="footer">
+  <p>© 2026 Дом культуры с. Казаклия</p>
+
+  <p class="disclaimer">
+    Данный веб-сайт был выполнен в рамках Региональной олимпиады «IT-технологии» 
+    и не обязательно отражает официальную позицию учреждения.
+  </p>
+
+  <p class="disclaimer">
+    Проект разработан при содействии администрации Дома культуры.
+  </p>
+</footer>
+
+<script src="js/menu.js"></script>
+<script src="js/modal.js"></script>
+
+</body>
+</html>

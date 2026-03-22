@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дом культуры с.Казаклия</title>
+
+    <!-- META для поисковых систем -->
+    <meta name="description" content="Официальный сайт Дома культуры села Казаклия. Афиша мероприятий, кружки, новости и контакты.">
+    <meta name="keywords" content="Дом культуры, Казаклия, афиша, кружки, мероприятия, новости">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">    <!-- красивые шрифты -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="icon" href="images/logo/logo.png">
+    
+
+</head>
+
+<body>
+
+<!-- ======= TOP BAR ======= -->
+<header class="topbar">
+    <div class="logo">
+        <img src="images/logo/logo.png" alt="Логотип ДК">
+        <span>Дом культуры с.Казаклия</span>
+    </div>
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+</header>
+
+<!-- ======= ОСНОВНОЙ КОНТЕЙНЕР ======= -->
+<div class="container">
+
+    <!-- ======= SIDEBAR ======= -->
+    <aside class="sidebar" id="sidebar">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="afisha.html">Афиша</a></li>
+                <li><a href="working.html">Деятельность</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li><a href="people.html">Наш коллектив</a></li>
+                <li><a href="documents.html">Документы</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <div class="sidebar-info">
+            <p>📞 0 (291) 67-2-45</p>
+            <p>🕒 Пн–Пт 08:00–17:00</p>
+        </div>
+    </aside>
+
+    <!-- ======= MAIN CONTENT ======= -->
+    <main class="content">
+
+        <!-- HERO БЛОК -->
+        <section class="hero">
+            <img src="images/hero/Казаклия.jpg" alt="ДК с.Казаклия">
+            <div class="hero-text">
+                <h1>Культура объединяет</h1>
+                <p>Место творчества, традиций и вдохновения</p>                
+            </div>
+        </section>
+
+        <!-- БЫСТРАЯ НАВИГАЦИЯ -->
+        <section class="quick-links">
+
+            <div class="card">
+                <h3>Афиша</h3>
+                <p>Ближайшие события и концерты</p>
+                <a href="afisha.html">Подробнее</a>
+            </div>
+
+            <div class="card">
+                <h3>Деятельность</h3>
+                <p>Творческие коллективы. Музей и библиотека.</p>
+                <a href="working.html">Подробнее</a>
+            </div>
+
+            <div class="card">
+                <h3>Галерея</h3>
+
+
+                <div class="event-card">
+                   <img src="images/gallery/1.jpg" alt="Фестиваль" />
+                <div>                
+
+                <p>Фото с мероприятий</p>
+                <a href="gallery.html">Подробнее</a>
+            </div>
+        </section>
+
+        <!-- ЗНАЧИМОЕ СОБЫТИЕ -->
+        <section class="event-week">
+            <h2>Значимое событие</h2>
+            <div class="event-card">
+              <img src="images/gallery/14.jpg" alt="Фестиваль" />
+            <div>
+                  <h3>Фестиваль «Sevda Dalgaları» – 2025</h3>
+
+                  <p>
+                    Наши ученицы приняли участие в международном фольклорном фестивале, 
+                    представив гагаузские традиции и национальные костюмы.
+                  </p>
+
+               <a href="sevda.html" class="btn-small">Подробнее</a>
+              </div>
+            </div>
+        </section>
+
+        <!-- НОВОСТИ -->
+        <section class="news-preview">
+            <h2>Последние новости</h2>
+                 
+              <div class="news-grid">
+
+                <div class="news-card">
+  
+                  <img src="images/news/sozvuchie/kv2.jpg" alt="Созвучие">
+
+                  <div class="news-content">
+                    <h3>Проект «Созвучие»</h3>
+                    <p>Литературно-музыкальный праздник с участием гостей из Кишинёва и творческих коллективов Казаклии.</p>
+                    <a href="sozvuchie.html">Читать</a>
+                  </div>
+
+                </div>
+
+
+                <div class="news-card">
+
+                  <img src="images/news/museum/4.jpg" alt="Экспонаты музея">
+
+                  <div class="news-content">
+                    <h3>Новые экспонаты музея</h3>
+                    <p>Фонд музея пополнился уникальными военными формами наших земляков.</p>
+                    <a href="museum-uniforms.html">Читать</a>
+                  </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<!-- ======= FOOTER ======= -->
+<footer class="footer">
+  <p>© 2026 Дом культуры с. Казаклия</p>
+
+  <p class="disclaimer">
+    Данный веб-сайт был выполнен в рамках Региональной олимпиады «IT-технологии» 
+    и не обязательно отражает официальную позицию учреждения.
+  </p>
+
+  <p class="disclaimer">
+    Проект разработан при содействии администрации Дома культуры.
+  </p>
+</footer>
+
+<script src="js/menu.js"></script>
+
+</body>
+</html>

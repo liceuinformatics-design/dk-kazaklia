@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Проект «Созвучие» — Дом культуры Казаклия</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="icon" href="images/logo/logo.png">
+
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="logo">
+    <img src="images/logo/logo.png">
+    <span>Дом культуры с. Казаклия</span>
+  </div>
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+</header>
+
+<div class="container">
+
+<aside class="sidebar" id="sidebar">
+<nav>
+<ul>
+<li><a href="index.html">Главная</a></li>
+<li><a href="afisha.html">Афиша</a></li>
+<li><a href="working.html">Деятельность</a></li>
+<li><a href="news.html" class="active">Новости</a></li>
+<li><a href="gallery.html">Галерея</a></li>
+<li><a href="people.html">Наш коллектив</a></li>
+<li><a href="documents.html">Документы</a></li>
+<li><a href="contacts.html">Контакты</a></li>
+</ul>
+</nav>
+</aside>
+
+<main class="content">
+
+
+<h1 class="page-title">Проект «Созвучие» в Казаклии</h1>
+<p class="page-subtitle">22 мая 2025 года</p>
+
+<div class="news-text">
+<p>
+В Доме культуры села Казаклия состоялся яркий литературно-музыкальный праздник в рамках проекта «Созвучие».
+</p>
+
+<p>
+Мероприятие объединило поэтов, музыкантов и творческих людей из разных регионов. Программа началась с возложения цветов к памятнику Неизвестному солдату.
+</p>
+
+<p>
+Зрители услышали стихи, песни и авторские произведения на разных языках, а также стали свидетелями живого творческого общения.
+</p>
+
+<p>
+Особую атмосферу создали выступления ансамбля «Севда» и коллектива «Şennik».
+</p>
+
+<p>
+Праздник прошёл в тёплой и душевной атмосфере, объединяя людей через культуру и творчество.
+</p>
+</div>
+
+<!-- ===== ГАЛЕРЕЯ ===== -->
+<h2 class="section-title">📸 Фотогалерея</h2>
+
+ <div class="gallery-grid">
+
+    <div class="gallery-item">
+    <img src="images/news/sozvuchie/kv1.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/sozvuchie/kv2.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/sozvuchie/kv3.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/sozvuchie/kv4.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/sozvuchie/kv5.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/sozvuchie/kv6.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/sozvuchie/kv7.jpg" onclick="openModal(this)">
+    </div> 
+
+
+        <div class="gallery-item video" onclick="openVideo('video/kv4.mp4')">
+            <img src="images/news/sozvuchie/kv8.jpg">
+            <span class="play-icon">▶</span>
+        </div>
+
+        <div class="gallery-item video" onclick="openVideo('video/kv2.mp4')">
+            <img src="images/news/sozvuchie/kv9.jpg">
+            <span class="play-icon">▶</span>
+        </div>
+
+        <div class="gallery-item video" onclick="openVideo('video/kv1.mp4')">
+            <img src="images/news/sozvuchie/kv5.jpg">
+            <span class="play-icon">▶</span>
+        </div>
+
+        <div class="gallery-item video" onclick="openVideo('video/kv3.mp4')">
+            <img src="images/news/sozvuchie/kv0.jpg">
+            <span class="play-icon">▶</span>
+        </div>
+
+        <div class="gallery-item video" onclick="openVideo('video/kv5.mp4')">
+            <img src="images/news/sozvuchie/kv01.jpg">
+            <span class="play-icon">▶</span>
+        </div>
+</div>
+
+<div class="back-wrapper">
+  <a href="news.html" class="back-link">← Назад к новостям</a>
+</div>
+
+
+</main>
+</div>
+
+<!-- МОДАЛКА -->
+<div id="modal" class="modal" onclick="closeModal()">
+  <img id="modal-img">
+
+  <video id="modal-video" controls onclick="event.stopPropagation()">
+    <source id="video-source" src="">
+  </video>
+</div>
+
+<footer class="footer">
+  <p>© 2026 Дом культуры с. Казаклия</p>
+
+  <p class="disclaimer">
+    Данный веб-сайт был выполнен в рамках Региональной олимпиады «IT-технологии» 
+    и не обязательно отражает официальную позицию учреждения.
+  </p>
+
+  <p class="disclaimer">
+    Проект разработан при содействии администрации Дома культуры.
+  </p>
+</footer>
+
+<script src="js/menu.js"></script>
+<script src="js/modal.js"></script>
+
+</body>
+</html>

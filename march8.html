@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Праздничный концерт к 8 Марта — Дом культуры Казаклия</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="icon" href="images/logo/logo.png">
+
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="logo">
+    <img src="images/logo/logo.png">
+    <span>Дом культуры с. Казаклия</span>
+  </div>
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+</header>
+
+<div class="container">
+
+<aside class="sidebar" id="sidebar">
+<nav>
+<ul>
+<li><a href="index.html">Главная</a></li>
+<li><a href="afisha.html">Афиша</a></li>
+<li><a href="working.html">Деятельность</a></li>
+<li><a href="news.html" class="active">Новости</a></li>
+<li><a href="gallery.html">Галерея</a></li>
+<li><a href="people.html">Наш коллектив</a></li>
+<li><a href="documents.html">Документы</a></li>
+<li><a href="contacts.html">Контакты</a></li>
+</ul>
+</nav>
+</aside>
+
+<main class="content">
+
+<h1 class="page-title">Праздничный концерт к 8 Марта</h1>
+<p class="page-subtitle">7 марта 2025 года</p>
+
+<div class="news-text">
+
+<p>
+7 марта в Доме культуры села Казаклия состоялся праздничный концерт и дискотека, 
+посвящённые Международному женскому дню — празднику красоты, весны и вдохновения.
+</p>
+
+<p>
+В концертной программе приняли участие творческие коллективы Дома культуры: 
+оркестр «Duygum», фольклорный ансамбль «Севда», вокальная группа «Миллениум», 
+фольклорный коллектив «Младшая Севда» и танцевальный коллектив «Şennik».
+</p>
+
+<p>
+Мероприятие прошло на высоком уровне и собрало множество зрителей — жителей 
+и гостей нашего села, которые тепло поддерживали артистов и разделили атмосферу праздника.
+</p>
+
+<p>
+Выражаем искреннюю благодарность Примарии за содействие в организации мероприятия, 
+а также всем жителям и гостям села за активное участие.
+</p>
+
+<p>
+От всей души поздравляем всех женщин с этим прекрасным весенним праздником! 
+Желаем здоровья, счастья, любви и вдохновения. Пусть в ваших сердцах всегда живёт весна!
+</p>
+
+</div>
+
+<!-- ===== ГАЛЕРЕЯ ===== -->
+<h2 class="section-title">📸 Фото и видео</h2>
+
+    <div class="gallery-grid">
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m1.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m2.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m3.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m4.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m5.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m6.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m7.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m8.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m9.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m10.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m11.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m12.jpg" onclick="openModal(this)">
+    </div>
+
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m13.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/march8/m14.jpg" onclick="openModal(this)">
+    </div>
+
+</div>
+
+<div class="back-wrapper">
+  <a href="news.html" class="back-link">← Назад к новостям</a>
+</div>
+
+</main>
+</div>
+
+<!-- МОДАЛКА (НЕ МЕНЯЕМ — ВАША СТРУКТУРА) -->
+<div id="modal" class="modal" onclick="closeModal()">
+  <img id="modal-img">
+
+  <video id="modal-video" controls onclick="event.stopPropagation()">
+    <source id="video-source" src="">
+  </video>
+</div>
+
+<footer class="footer">
+  <p>© 2026 Дом культуры с. Казаклия</p>
+
+  <p class="disclaimer">
+    Данный веб-сайт был выполнен в рамках Региональной олимпиады «IT-технологии» 
+    и не обязательно отражает официальную позицию учреждения.
+  </p>
+
+  <p class="disclaimer">
+    Проект разработан при содействии администрации Дома культуры.
+  </p>
+</footer>
+
+<script src="js/menu.js"></script>
+<script src="js/modal.js"></script>
+
+</body>
+</html>

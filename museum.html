@@ -1,0 +1,472 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Этнографический музей с.Казаклия</title>
+
+  <meta name="description" content="Музей сельский. Традиции. Фото, видео, деятельность.">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <link rel="icon" href="images/logo/logo.png">
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="logo">
+    <img src="images/logo/logo.png" alt="Логотип ДК" />
+    <span>Дом культуры с. Казаклия</span>
+  </div>
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+</header>
+
+<div class="container">
+
+  <!-- МЕНЮ -->
+  <aside class="sidebar" id="sidebar">
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="afisha.html">Афиша</a></li>
+        <li><a href="working.html" class="active">Деятельность</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="people.html">Наш коллектив</a></li>
+        <li><a href="documents.html">Документы</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <div class="sidebar-info">
+      <p>📞 0 (291) 67-2-45</p>
+      <p>🕒 Пн–Пт 08:00–17:00</p>
+    </div>
+  </aside>
+
+  <!-- КОНТЕНТ -->
+  <main class="content">
+      
+      <div>
+        <h1 class="page-title">Этнографический музей с.Казаклия</h1>
+        <p class="page-subtitle">
+          Этнографический музей, сохраняющий историю, традиции и культурное наследие гагаузского народа.
+        </p>
+      </div>
+   
+
+    <!-- ОПИСАНИЕ -->
+    <section class="section-block">     
+            
+        <section>
+          <h2> О музее</h2>
+
+          <p>
+            Этнографический музей села Казаклия — важный центр сохранения и популяризации 
+            истории, традиций и культуры гагаузского народа. 
+          </p>
+
+          <p>
+            Музей был открыт в октябре 2019 года и с тех пор стал значимым культурным 
+            пространством для жителей и гостей села.
+          </p>
+
+          <p>
+            Он действует при Доме культуры, участвует в культурных проектах, организует 
+            экскурсии и тематические мероприятия.
+          </p>
+        </section>
+
+        <section>
+          <h2>Экспозиция</h2>
+
+          <p>
+            В музее представлено более 700 экспонатов, отражающих быт, традиции 
+            и ремёсла гагаузского народа. 
+          </p>
+
+          <ul>
+            <li>Домотканые ковры и предметы интерьера</li>
+            <li>Старинная утварь и орудия труда</li>
+            <li>Традиционная одежда начала и середины XX века</li>
+            <li>Редкие исторические предметы и коллекции</li>
+          </ul>
+
+          <p>
+            Особую ценность представляет икона возрастом более 120 лет, 
+            являющаяся важным духовным и культурным наследием.
+          </p>
+        </section>
+
+        <section>
+          <h2>Значение</h2>
+
+          <p>
+            Музей выполняет важную просветительскую функцию: помогает лучше понять 
+            исторический путь гагаузского народа и познакомиться с жизнью 
+            жителей села в разные периоды.
+          </p>
+
+          <p>
+            Это не просто собрание экспонатов, а живая история, отражающая дух 
+            Казаклии и связь поколений.
+          </p>
+        </section>
+
+        <section>
+          <h2>Деятельность</h2>
+
+          <ul>
+            <li>Проведение экскурсий</li>
+            <li>Организация тематических мероприятий</li>
+            <li>Участие в культурных проектах Дома культуры</li>
+            <li>Работа с молодёжью и школьниками</li>
+          </ul>
+        </section>
+    </section>
+
+
+
+     <!-- ФОТО ВИДЕО-->
+
+    <section class="section-block">
+      <h2>📸 Фото/Видео галерея</h2>
+
+      <div class="gallery-grid">
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m01.jpg" onclick="openModal(this)">
+        </div>
+
+
+
+
+        <div class="gallery-item video" onclick="openVideo('video/ms1.mp4')">
+            <img src="images/working/museum/m18.png">
+            <span class="play-icon">▶</span>
+        </div>
+        
+        <div class="gallery-item video" onclick="openVideo('video/ms2.mp4')">
+            <img src="images/working/museum/m17.jpg">
+            <span class="play-icon">▶</span>
+        </div>
+
+
+
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m1.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m2.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m3.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m2.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m1.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m4.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m5.png" onclick="openModal(this)">
+        </div>
+
+         <div class="gallery-item">
+          <img src="images/working/museum/m6.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m7.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m8.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m9.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m10.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m11.png" onclick="openModal(this)">
+        </div>
+
+         <div class="gallery-item">
+          <img src="images/working/museum/m12.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m13.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m14.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m15.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m16.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m17.png" onclick="openModal(this)">
+        </div>
+
+         <div class="gallery-item">
+          <img src="images/working/museum/m18.png" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m3.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m4.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m5.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m6.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m7.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m8.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m9.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m10.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m20.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m19.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m18.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m17.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m16.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m15.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m14.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m13.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m12.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m11.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m21.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m22.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m23.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m24.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m25.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m26.jpg" onclick="openModal(this)">
+        </div>
+        
+        <div class="gallery-item">
+          <img src="images/working/museum/m27.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m28.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m29.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m30.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m31.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m32.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m33.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m34.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m35.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m36.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m37.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m38.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m39.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m50.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m40.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m41.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m42.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m43.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m44.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m45.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m46.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m47.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m48.jpg" onclick="openModal(this)">
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/working/museum/m49.jpg" onclick="openModal(this)">
+        </div>                          
+
+        
+     </div>
+ </section>
+   
+
+<!-- КНОПКА НАЗАД -->
+    <a href="working.html" class="back-button">← Назад к разделу</a>
+
+  </main>
+
+</div>
+
+
+<!-- МОДАЛКА -->
+<div id="modal" class="modal" onclick="closeModal()">
+  <img id="modal-img">
+
+  <video id="modal-video" controls onclick="event.stopPropagation()">
+    <source id="video-source" src="">
+  </video>
+</div>
+
+
+
+<footer class="footer">
+ <p>© 2026 Дом культуры с. Казаклия</p>
+<p class="disclaimer">
+    Данный веб-сайт был выполнен в рамках Региональной олимпиады «IT-технологии» 
+    и не обязательно отражает официальную позицию учреждения.
+  </p>
+
+  <p class="disclaimer">
+    Проект разработан при содействии администрации Дома культуры.
+  </p>
+</footer>
+
+<script src="js/menu.js"></script>
+<script src="js/modal.js"></script>
+
+</body>
+</html>

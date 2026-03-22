@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Визит коллег из Тараклии — Дом культуры Казаклия</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="icon" href="images/logo/logo.png">
+
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="logo">
+    <img src="images/logo/logo.png">
+    <span>Дом культуры с. Казаклия</span>
+  </div>
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+</header>
+
+<div class="container">
+
+<aside class="sidebar" id="sidebar">
+<nav>
+<ul>
+<li><a href="index.html">Главная</a></li>
+<li><a href="afisha.html">Афиша</a></li>
+<li><a href="working.html">Деятельность</a></li>
+<li><a href="news.html" class="active">Новости</a></li>
+<li><a href="gallery.html">Галерея</a></li>
+<li><a href="people.html">Наш коллектив</a></li>
+<li><a href="documents.html">Документы</a></li>
+<li><a href="contacts.html">Контакты</a></li>
+</ul>
+</nav>
+</aside>
+
+<main class="content">
+
+<h1 class="page-title">Визит коллег из Тараклии</h1>
+<p class="page-subtitle">Начало марта 2025 года</p>
+
+<div class="news-text">
+
+<p>
+Наш музей стал площадкой для важного профессионального диалога: в рамках обмена опытом 
+нас посетили коллеги из города Тараклия.
+</p>
+
+<p>
+Межмузейное сотрудничество — это возможность по-новому взглянуть на свои фонды и экспозиции, 
+обсудить актуальные вопросы сохранения культурного наследия и работу с этнографическими коллекциями.
+</p>
+
+<p>
+Особое внимание было уделено современным подходам к привлечению посетителей 
+и популяризации традиционной культуры.
+</p>
+
+<p>
+Тараклия — уникальный центр болгарской культуры, и опыт коллег в сохранении 
+самобытных традиций стал для нас источником вдохновения.
+</p>
+
+<p>
+Уверены, что такие встречи станут основой для будущих совместных проектов и выставок.
+</p>
+
+<p>
+Благодарим гостей за открытость и профессионализм!
+</p>
+
+</div>
+
+<!-- ===== ГАЛЕРЕЯ ===== -->
+<h2 class="section-title">📸 Фото и видео</h2>
+
+<div class="gallery-grid">
+
+    <div class="gallery-item">
+    <img src="images/news/taraclia/1.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/taraclia/2.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/taraclia/3.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/taraclia/4.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/taraclia/5.jpg" onclick="openModal(this)">
+    </div>
+
+    <div class="gallery-item">
+    <img src="images/news/taraclia/6.jpg" onclick="openModal(this)">
+    </div>     
+
+</div>
+
+<div class="back-wrapper">
+  <a href="news.html" class="back-link">← Назад к новостям</a>
+</div>
+
+</main>
+</div>
+
+<!-- МОДАЛКА -->
+<div id="modal" class="modal" onclick="closeModal()">
+  <img id="modal-img">
+
+  <video id="modal-video" controls onclick="event.stopPropagation()">
+    <source id="video-source" src="">
+  </video>
+</div>
+
+<footer class="footer">
+  <p>© 2026 Дом культуры с. Казаклия</p>
+
+  <p class="disclaimer">
+    Данный веб-сайт был выполнен в рамках Региональной олимпиады «IT-технологии» 
+    и не обязательно отражает официальную позицию учреждения.
+  </p>
+
+  <p class="disclaimer">
+    Проект разработан при содействии администрации Дома культуры.
+  </p>
+</footer>
+
+<script src="js/menu.js"></script>
+<script src="js/modal.js"></script>
+
+</body>
+</html>
