@@ -351,3 +351,13 @@ section h2 {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 20px;
 }
+
+section ul {
+    list-style:none;
+    padding-left:20px;
+}
+
+section ul li::before {
+    content:"- ";
+    color: #8b5e3c;
+}
