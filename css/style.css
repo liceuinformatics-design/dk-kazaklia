@@ -49,7 +49,7 @@ section h2 {
 }
 
 
-/* ===== НАШ КОЛЛЕКТИВ ===== */
+/* ===== КОЛЛЕКТИВ ===== */
 
 .staff-grid {
     display: grid;
@@ -79,7 +79,7 @@ section h2 {
     margin-bottom: 10px;
 }
 
-/* ===== УБИРАЕМ ОГРАНИЧЕНИЕ ШИРИНЫ ===== */
+/* ===== НЕТ ОГРАНИЧЕНИЯ ШИРИНЫ ===== */
 
 .content {
     width: 100%;
@@ -95,7 +95,7 @@ section h2 {
     width: 100%;
 }
 
-/* ===== КАРТОЧКА ===== */
+/* ===== КАРТОЧКА СОТРУДНИКОВ===== */
 
 .staff-card {
     background: #fff;
@@ -106,7 +106,7 @@ section h2 {
     transition: transform 0.2s ease;
 }
 
-/* Безопасный hover (не ломает мобильные) */
+/* hover (для мобильных) */
 @media (hover: hover) {
     .staff-card:hover {
         transform: translateY(-5px);
@@ -118,7 +118,7 @@ section h2 {
 .staff-card img {
     width: 100%;
     height: 260px;
-    object-fit: cover; /* важно для всех браузеров */
+    object-fit: cover; 
     border-radius: 10px;
     margin-bottom: 10px;
     display: block;

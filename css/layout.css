@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 18px 24px;
-    background: #f4f1ec;                 /* мягкий «молочный» фон под тёплый логотип */
+    background: #f4f1ec;                 
     border-bottom: 1px solid #e3dbd2;
     position: sticky;
     top: 0;
@@ -30,21 +30,21 @@
 
 /* Логотип */
 .logo img {
-    height: 150px;                        /* оптимально для sticky */
+    height: 150px;                        
     width: auto;
     filter: drop-shadow(0 3px 6px rgba(0,0,0,0.15));
 }
 
 /* Название рядом */
 .logo span {
-    font-family: 'Playfair Display', serif; /* подключить шрифт в <head> */
+    font-family: 'Playfair Display', serif; /* подключение шрифта в <head> */
     font-size: 52px;
     font-weight: 700;
-    color: #5b3b2f;                      /* тёплый оттенок под логотип */
+    color: #5b3b2f;                      
     letter-spacing: 0.6px;
 }
 
-/* Кнопка меню для мобильной версии (появится в responsive.css) */
+/* Кнопка меню для мобильной версии (также в responsive.css) */
 .menu-toggle {
     display: none;
     font-size: 24px;
@@ -62,10 +62,10 @@
 }
 
 
-/* ===== SIDEBAR (ЧУТЬ ТЕМНЕЕ) ===== */
+/* ===== SIDEBAR ===== */
 
 .sidebar {
-    background: #e6dfd6;      /* мягкий тёплый беж темнее */
+    background: #e6dfd6;      
     color: #5b3b2f;
     padding: 22px 16px;
     border-right: 1px solid #d8cfc6;
@@ -99,7 +99,7 @@
 }
 
 
-/* ---------- HERO ---------- */
+/* ---- HERO ----- */
 .hero {
     position: relative;
     border-radius: 16px;
@@ -107,7 +107,7 @@
     margin-bottom: 18px;
 }
 
-/* Картинка */
+/* === Картинка ====   */
 .hero img {
     width: 100%;
     height: 320px;
@@ -117,7 +117,7 @@
     z-index: 0;
 }
 
-/* Градиент-оверлей (глубина + читаемость текста) */
+/* Градиент (глубина + читаемость текста) */
 .hero::before {
     content: "";
     position: absolute;
@@ -130,7 +130,7 @@
     z-index: 1;
 }
 
-/* Текст поверх */
+/* ======Текст поверх ===== */
 .hero-text {
     position: absolute;
     left: 18px;
@@ -152,7 +152,7 @@
     color: rgba(255,255,255,0.92);
 }
 
-/* ===== ЛЁГКИЕ КНОПКИ ===== */
+/* === КНОПКИ === */
 
 .btn,
 .btn-small {
@@ -186,7 +186,7 @@
 }
 
 
-/* ---------- QUICK LINKS ---------- */
+/* -------- Быстрые ссылки ------- */
 .quick-links {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -225,7 +225,7 @@
 .card a,
 .news-card a {
     text-decoration: none;
-    color: #6b4a3a;                      /* в тон акценту */
+    color: #6b4a3a;                      
     font-weight: 700;
 }
 
@@ -242,7 +242,7 @@
     box-shadow: 0 10px 24px rgba(0,0,0,0.10);
 }
 
-/* ===== "ПОДРОБНЕЕ" КАК В АФИШЕ ===== */
+/* ===== "ПОДРОБНЕЕ"  ===== */
 
 .card a.more {
     display: inline-block;
@@ -319,7 +319,7 @@
 
 .news-card {
     padding: 12px;
-    background: #faf8f6;                 /* лёгкий тёплый фон */
+    background: #faf8f6;                 
 }
 
 .news-card h4 {
@@ -336,7 +336,7 @@
 
 
 
-/* Убрать ограничение ширины контента */
+/* нет ограничения ширины контента */
 .content {
     width: 100%;
     padding: 24px 28px 24px 40px;
@@ -370,7 +370,7 @@
     margin-top: 8px;
     padding: 7px 12px;
     border-radius: 8px;
-    background: transparent;              /* УБИРАЕМ фон */
+    background: transparent;              
     color: #6b4a3a;
     text-decoration: none;
     font-weight: 600;
@@ -654,17 +654,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* ВЕРТИКАЛЬНЫЕ ФОТО */
 .news-gallery .vertical {
     aspect-ratio: 3 / 4;
@@ -718,8 +707,6 @@ html {
     text-decoration: none;
     color: #6b4a3a;
 }
-
-
 
 /* логотип СЕВДА на странице working */
 

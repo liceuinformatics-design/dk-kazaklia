@@ -80,7 +80,7 @@
 @media (max-width: 768px) {
 
     .clubs-grid {
-        grid-template-columns: 1fr; /* было 2–3 → станет 1 */
+        grid-template-columns: 1fr; /* было 3 колонки, станет 1 */
     }
 
     .page-title {
